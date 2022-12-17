@@ -36,11 +36,13 @@ body{
 }
 
 section.hearts{
+    width: 400px;
+    max-width: 99vw;
     display: flex;
+    justify-content: space-around;
 }
 
 section.hearts div{
-    margin: 0px 50px;
     cursor: pointer;
     transition: .4s ease;
 }
@@ -50,8 +52,10 @@ section.hearts div:hover{
 }
 
 section.hearts  img{
-    max-width: 200px;
-    max-height: 200px;
+    width: 22vw;
+    height: 22vw;
+    max-width: 190px;
+    max-height: 190px;
 }
 
 .off-img{
@@ -90,4 +94,24 @@ div.button, .button2 p{
 @keyframes bg-animation{
     0%{background-position: left;}
     100%{background-position: right;}
+}
+
+@media all and (max-width: 700px){
+    .jv-heart{
+        margin-right: -20px;
+    }
+
+    .iana-heart{
+        margin-left: -20px;
+    }
+}
+
+@media all and (max-width: 550px){
+    .jv-heart{
+        margin-right: -50px;
+    }
+
+    .iana-heart{
+        margin-left: -50px;
+    }
 }
