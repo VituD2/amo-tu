@@ -35,6 +35,37 @@ body{
     animation: bg-animation 4s infinite alternate;
 }
 
+section.hearts{
+    display: flex;
+}
+
+section.hearts div{
+    margin: 0px 50px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+section.hearts div:hover{
+    scale: 1.1;
+}
+
+section.hearts  img{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.off-img{
+    display: none;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 32px;
+    font-style: italic;
+    text-transform: uppercase;
+    color: white;
+}
+
 div.button, .button2{
     padding: 5px 10px;
     cursor: pointer;
@@ -55,13 +86,6 @@ div.button, .button2 p{
     color: white;
 }
 
-h1{
-    font-weight: 700;
-    font-size: 32px;
-    font-style: italic;
-    text-transform: uppercase;
-    color: white;
-}
 
 @keyframes bg-animation{
     0%{background-position: left;}

@@ -1,0 +1,14 @@
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.spotify-button{
+    margin-left: 20px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.spotify-button:hover{
+    scale: 1.1;
+}
