@@ -48,7 +48,7 @@ section.hearts div{
 }
 
 section.hearts div:hover{
-    scale: 1.1;
+    scale: 1.05;
 }
 
 section.hearts  img{
@@ -59,7 +59,10 @@ section.hearts  img{
 }
 
 .off-img{
-    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
 }
 
 h1{
@@ -105,6 +108,7 @@ div.button, .button2 p{
         margin-left: -20px;
     }
 }
+
 
 @media all and (max-width: 550px){
     .jv-heart{
