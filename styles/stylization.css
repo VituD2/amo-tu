@@ -29,7 +29,7 @@ body{
     justify-content: center;
     align-items: center;
     font-family: 'Kanit', sans-serif;
-    background-image: linear-gradient(30deg, #f3bdd3, #f596be, #f380b0, #e7508f);
+    background-image: linear-gradient(30deg, #00123b, #000d2b, #03001b, #000000);
     background-size: 300%;
     background-position: left;
     animation: bg-animation 4s infinite alternate;
@@ -93,6 +93,29 @@ div.button, .button2 p{
     color: white;
 }
 
+.back-button{
+    margin: 15vh 0px;
+}
+
+.breakup{
+    border-radius: 9999px;
+    border: 2px solid #fff;
+    transition: scale .5s ease;
+}
+
+.breakup:hover{
+    border-radius: 9999px;
+    scale: 1.08;
+    border: 4px solid #ffF;
+}
+
+.breakup-icon, .breakup-icon img{
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 9999px;
+}
+
+
 
 @keyframes bg-animation{
     0%{background-position: left;}
@@ -119,3 +142,4 @@ div.button, .button2 p{
         margin-left: -50px;
     }
 }
+

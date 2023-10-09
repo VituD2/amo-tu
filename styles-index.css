@@ -1,6 +1,7 @@
 .content{
-    display: flex;
-    flex-direction: row;
+    display: flex !important; 
+    flex-direction: row !important;
+    background-image: linear-gradient(30deg, #f3bdd3, #f596be, #f380b0, #e7508f) !important;
 }
 
 .spotify-button{
